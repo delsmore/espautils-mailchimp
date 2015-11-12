@@ -1,15 +1,6 @@
 <?php
-// declare db connection variables
-
-//$server   = 'localhost';
-//$username = 'espadev';
-//$password = 'espa1210';
-//$database = 'EDINAImports';
-
-$server = 'espa1.rir.ed.ac.uk';
-$username = 'delsemore';
-$password = 'Edina1210';
-//$database = 'EDINAImports';
+include 'conn-local.php';
+//include 'conn-rir.php';
 
 require("vendor/autoload.php"); // Load MailChimp class
 
